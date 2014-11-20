@@ -58,6 +58,7 @@
 		841495B91A1451DB00B7CBC0 /* IOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84EA723C1A1DFE0100A31041 /* SourceCode */,
 				841495BE1A1451DB00B7CBC0 /* AppDelegate.h */,
 				841495BF1A1451DB00B7CBC0 /* AppDelegate.m */,
 				841495C11A1451DB00B7CBC0 /* ViewController.h */,
@@ -77,6 +78,53 @@
 				841495BC1A1451DB00B7CBC0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EA723C1A1DFE0100A31041 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				84EA72411A1E00F400A31041 /* Configs */,
+				84EA72401A1E00EC00A31041 /* DataModel */,
+				84EA723F1A1E00E400A31041 /* DataBase */,
+				84EA723E1A1E00CD00A31041 /* ViewControllers */,
+				84EA723D1A1E00B900A31041 /* Views */,
+			);
+			name = SourceCode;
+			sourceTree = "<group>";
+		};
+		84EA723D1A1E00B900A31041 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84EA723E1A1E00CD00A31041 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84EA723F1A1E00E400A31041 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		84EA72401A1E00EC00A31041 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		84EA72411A1E00F400A31041 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Configs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
