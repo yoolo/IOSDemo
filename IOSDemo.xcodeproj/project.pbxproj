@@ -58,6 +58,7 @@
 		841495B91A1451DB00B7CBC0 /* IOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84D53F041A1F31190058683C /* Resource */,
 				84EA723C1A1DFE0100A31041 /* SourceCode */,
 				841495BE1A1451DB00B7CBC0 /* AppDelegate.h */,
 				841495BF1A1451DB00B7CBC0 /* AppDelegate.m */,
@@ -78,6 +79,21 @@
 				841495BC1A1451DB00B7CBC0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D53F041A1F31190058683C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				84D53F051A1F31260058683C /* Images */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		84D53F051A1F31260058683C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		84EA723C1A1DFE0100A31041 /* SourceCode */ = {

@@ -36,6 +36,6 @@
 - (IBAction)setOutput:(id)sender {
     
     self.userOutput.text = self.userInput.text;
-    
+   
 }
 @end
