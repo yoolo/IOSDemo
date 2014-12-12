@@ -18,6 +18,8 @@
 
 - (IBAction)setOutput:(id)sender;
 
+- (IBAction)done:(UIStoryboardSegue *)segue;
+
 
 @end
 

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SampleDelegateViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+   
+//    self.window =[ [UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds] ];
+//    SampleDelegateViewController *controller= [[SampleDelegateViewController alloc] initWithNibName:@"SampleDelegate" bundle:nil];
+//    
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    self.window.rootViewController =controller;
+//    [self.window makeKeyAndVisible];
+    
+    SampleDelegateViewController *sampleController = [[SampleDelegateViewController alloc] init ];
+    
+    
+    self.window.rootViewController = sampleController;
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

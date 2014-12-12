@@ -13,6 +13,11 @@
 		841495C61A1451DB00B7CBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841495C41A1451DB00B7CBC0 /* Main.storyboard */; };
 		841495C81A1451DB00B7CBC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841495C71A1451DB00B7CBC0 /* Images.xcassets */; };
 		841495CB1A1451DB00B7CBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841495C91A1451DB00B7CBC0 /* LaunchScreen.xib */; };
+		841BCC5A1A3AFAE500694756 /* SampleDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841BCC591A3AFAE500694756 /* SampleDelegate.xib */; };
+		848747D61A36EAB800EFFD31 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 848747D51A36EAB800EFFD31 /* SampleProtocol.m */; };
+		848747DB1A36F87900EFFD31 /* SampleDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848747DA1A36F87900EFFD31 /* SampleDelegateViewController.m */; };
+		84AFDA401A2327FB008AECFB /* UIButtonAuto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AFDA3F1A2327FB008AECFB /* UIButtonAuto.xib */; };
+		84AFDA421A232843008AECFB /* UIButtonAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AFDA411A232843008AECFB /* UIButtonAuto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		841495C51A1451DB00B7CBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841495C71A1451DB00B7CBC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		841495CA1A1451DB00B7CBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		841BCC591A3AFAE500694756 /* SampleDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleDelegate.xib; sourceTree = "<group>"; };
+		848747D41A36EAB800EFFD31 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		848747D51A36EAB800EFFD31 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
+		848747D91A36F87900EFFD31 /* SampleDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDelegateViewController.h; sourceTree = "<group>"; };
+		848747DA1A36F87900EFFD31 /* SampleDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDelegateViewController.m; sourceTree = "<group>"; };
+		84AFDA3A1A231504008AECFB /* UIButtonAuto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonAuto.h; sourceTree = "<group>"; };
+		84AFDA3F1A2327FB008AECFB /* UIButtonAuto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIButtonAuto.xib; sourceTree = "<group>"; };
+		84AFDA411A232843008AECFB /* UIButtonAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonAuto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		84AFDA3E1A23268F008AECFB /* UIButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				84AFDA3A1A231504008AECFB /* UIButtonAuto.h */,
+				84AFDA411A232843008AECFB /* UIButtonAuto.m */,
+				84AFDA3F1A2327FB008AECFB /* UIButtonAuto.xib */,
+			);
+			name = UIButtonView;
+			sourceTree = "<group>";
+		};
 		84D53F041A1F31190058683C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +134,7 @@
 		84EA723D1A1E00B900A31041 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84AFDA3E1A23268F008AECFB /* UIButtonView */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -118,6 +142,11 @@
 		84EA723E1A1E00CD00A31041 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				848747D41A36EAB800EFFD31 /* SampleProtocol.h */,
+				848747D51A36EAB800EFFD31 /* SampleProtocol.m */,
+				848747D91A36F87900EFFD31 /* SampleDelegateViewController.h */,
+				848747DA1A36F87900EFFD31 /* SampleDelegateViewController.m */,
+				841BCC591A3AFAE500694756 /* SampleDelegate.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -200,6 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AFDA401A2327FB008AECFB /* UIButtonAuto.xib in Resources */,
+				841BCC5A1A3AFAE500694756 /* SampleDelegate.xib in Resources */,
 				841495C61A1451DB00B7CBC0 /* Main.storyboard in Resources */,
 				841495CB1A1451DB00B7CBC0 /* LaunchScreen.xib in Resources */,
 				841495C81A1451DB00B7CBC0 /* Images.xcassets in Resources */,
@@ -213,6 +244,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848747DB1A36F87900EFFD31 /* SampleDelegateViewController.m in Sources */,
+				848747D61A36EAB800EFFD31 /* SampleProtocol.m in Sources */,
+				84AFDA421A232843008AECFB /* UIButtonAuto.m in Sources */,
 				841495C31A1451DB00B7CBC0 /* ViewController.m in Sources */,
 				841495C01A1451DB00B7CBC0 /* AppDelegate.m in Sources */,
 				841495BD1A1451DB00B7CBC0 /* main.m in Sources */,

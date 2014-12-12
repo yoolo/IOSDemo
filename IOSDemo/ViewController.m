@@ -38,4 +38,8 @@
     self.userOutput.text = self.userInput.text;
    
 }
+
+- (IBAction)done:(UIStoryboardSegue *)segue{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
