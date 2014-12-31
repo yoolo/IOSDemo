@@ -18,6 +18,10 @@
 		848747DB1A36F87900EFFD31 /* SampleDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848747DA1A36F87900EFFD31 /* SampleDelegateViewController.m */; };
 		84AFDA401A2327FB008AECFB /* UIButtonAuto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AFDA3F1A2327FB008AECFB /* UIButtonAuto.xib */; };
 		84AFDA421A232843008AECFB /* UIButtonAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AFDA411A232843008AECFB /* UIButtonAuto.m */; };
+		84C925DC1A53D9C400BED831 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C925DB1A53D9C400BED831 /* LoginViewController.m */; };
+		84C925DF1A53E00400BED831 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C925DE1A53E00400BED831 /* LoginStoryboard.storyboard */; };
+		84C925E21A53FD4200BED831 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C925E11A53FD4200BED831 /* UserInfo.m */; };
+		84C925E51A53FDCE00BED831 /* SysUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C925E41A53FDCE00BED831 /* SysUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,13 @@
 		84AFDA3A1A231504008AECFB /* UIButtonAuto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonAuto.h; sourceTree = "<group>"; };
 		84AFDA3F1A2327FB008AECFB /* UIButtonAuto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIButtonAuto.xib; sourceTree = "<group>"; };
 		84AFDA411A232843008AECFB /* UIButtonAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonAuto.m; sourceTree = "<group>"; };
+		84C925DA1A53D9C400BED831 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		84C925DB1A53D9C400BED831 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		84C925DE1A53E00400BED831 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		84C925E01A53FD4200BED831 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		84C925E11A53FD4200BED831 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		84C925E31A53FDCE00BED831 /* SysUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SysUser.h; sourceTree = "<group>"; };
+		84C925E41A53FDCE00BED831 /* SysUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SysUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +115,25 @@
 			name = UIButtonView;
 			sourceTree = "<group>";
 		};
+		84C925D91A53D98F00BED831 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84C925DA1A53D9C400BED831 /* LoginViewController.h */,
+				84C925DB1A53D9C400BED831 /* LoginViewController.m */,
+				84C925E01A53FD4200BED831 /* UserInfo.h */,
+				84C925E11A53FD4200BED831 /* UserInfo.m */,
+			);
+			name = LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		84C925DD1A53DFB600BED831 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				84C925DE1A53E00400BED831 /* LoginStoryboard.storyboard */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
 		84D53F041A1F31190058683C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +164,7 @@
 		84EA723D1A1E00B900A31041 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84C925DD1A53DFB600BED831 /* LoginView */,
 				84AFDA3E1A23268F008AECFB /* UIButtonView */,
 			);
 			name = Views;
@@ -142,6 +173,7 @@
 		84EA723E1A1E00CD00A31041 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84C925D91A53D98F00BED831 /* LoginViewControllers */,
 				848747D41A36EAB800EFFD31 /* SampleProtocol.h */,
 				848747D51A36EAB800EFFD31 /* SampleProtocol.m */,
 				848747D91A36F87900EFFD31 /* SampleDelegateViewController.h */,
@@ -161,6 +193,8 @@
 		84EA72401A1E00EC00A31041 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				84C925E31A53FDCE00BED831 /* SysUser.h */,
+				84C925E41A53FDCE00BED831 /* SysUser.m */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -232,6 +266,7 @@
 				84AFDA401A2327FB008AECFB /* UIButtonAuto.xib in Resources */,
 				841BCC5A1A3AFAE500694756 /* SampleDelegate.xib in Resources */,
 				841495C61A1451DB00B7CBC0 /* Main.storyboard in Resources */,
+				84C925DF1A53E00400BED831 /* LoginStoryboard.storyboard in Resources */,
 				841495CB1A1451DB00B7CBC0 /* LaunchScreen.xib in Resources */,
 				841495C81A1451DB00B7CBC0 /* Images.xcassets in Resources */,
 			);
@@ -244,12 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C925E21A53FD4200BED831 /* UserInfo.m in Sources */,
 				848747DB1A36F87900EFFD31 /* SampleDelegateViewController.m in Sources */,
 				848747D61A36EAB800EFFD31 /* SampleProtocol.m in Sources */,
 				84AFDA421A232843008AECFB /* UIButtonAuto.m in Sources */,
 				841495C31A1451DB00B7CBC0 /* ViewController.m in Sources */,
+				84C925DC1A53D9C400BED831 /* LoginViewController.m in Sources */,
 				841495C01A1451DB00B7CBC0 /* AppDelegate.m in Sources */,
 				841495BD1A1451DB00B7CBC0 /* main.m in Sources */,
+				84C925E51A53FDCE00BED831 /* SysUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

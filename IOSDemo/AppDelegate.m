@@ -26,12 +26,12 @@
 //    self.window.rootViewController =controller;
 //    [self.window makeKeyAndVisible];
     
-    SampleDelegateViewController *sampleController = [[SampleDelegateViewController alloc] init ];
-    
-    
-    self.window.rootViewController = sampleController;
-    [self.window makeKeyAndVisible];
-
+//    SampleDelegateViewController *sampleController = [[SampleDelegateViewController alloc] init ];
+//    
+//    
+//    self.window.rootViewController = sampleController;
+//    [self.window makeKeyAndVisible];
+//
     return YES;
 }
 
