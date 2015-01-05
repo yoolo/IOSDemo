@@ -17,18 +17,37 @@
 
 @synthesize username,userpassword;
 
+
+#pragma mark - 初始化事件
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self initView];
+
+    
     // Do any additional setup after loading the view.
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark -	自定义控件
+- (void)initView{
+    
+    UIButton *btnLogin = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btnLogin.frame =CGRectMake(103, 380, 71, 30);
+    btnLogin.backgroundColor = [UIColor clearColor];
+    
+    [btnLogin setTitle:@"Register" forState:UIControlStateNormal];
+    
+    [self.view addSubview:btnLogin];
+}
 
-#pragma <#arguments#>
+#pragma mark - 按钮事件
+
 -(IBAction)btnRegister:(id)sender{
     
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407F5A21A5A6CBD004CA6B7 /* bg_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8407F5A11A5A6CBD004CA6B7 /* bg_login.jpg */; };
+		8407F5A41A5A7B19004CA6B7 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8407F5A31A5A7B19004CA6B7 /* launch.png */; };
 		841495BD1A1451DB00B7CBC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841495BC1A1451DB00B7CBC0 /* main.m */; };
 		841495C01A1451DB00B7CBC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841495BF1A1451DB00B7CBC0 /* AppDelegate.m */; };
 		841495C31A1451DB00B7CBC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841495C21A1451DB00B7CBC0 /* ViewController.m */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8407F5A11A5A6CBD004CA6B7 /* bg_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_login.jpg; path = ../../../bg_login.jpg; sourceTree = "<group>"; };
+		8407F5A31A5A7B19004CA6B7 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../../../launch.png; sourceTree = "<group>"; };
 		841495B71A1451DB00B7CBC0 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841495BB1A1451DB00B7CBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841495BC1A1451DB00B7CBC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 		84D53F051A1F31260058683C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8407F5A31A5A7B19004CA6B7 /* launch.png */,
+				8407F5A11A5A6CBD004CA6B7 /* bg_login.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8407F5A41A5A7B19004CA6B7 /* launch.png in Resources */,
 				84AFDA401A2327FB008AECFB /* UIButtonAuto.xib in Resources */,
 				841BCC5A1A3AFAE500694756 /* SampleDelegate.xib in Resources */,
+				8407F5A21A5A6CBD004CA6B7 /* bg_login.jpg in Resources */,
 				841495C61A1451DB00B7CBC0 /* Main.storyboard in Resources */,
 				84C925DF1A53E00400BED831 /* LoginStoryboard.storyboard in Resources */,
 				841495CB1A1451DB00B7CBC0 /* LaunchScreen.xib in Resources */,
